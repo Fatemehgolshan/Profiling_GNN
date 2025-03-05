@@ -5,7 +5,7 @@ request = portal.Context().makeRequestRSpec()
 
 # Create a single node in Wisconsin cluster
 node = request.RawPC("node1")
-node.hardware_type = "c240g5"
+node.hardware_type = "d7525"
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD"
 
 # Output the RSpec
